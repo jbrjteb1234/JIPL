@@ -5,7 +5,7 @@
 
 #define DELIMITER_SYMBOL ";"
 
-//  LEXEME              TOKEN VALUE         TOKEN TYPE 
+//  LEXEME              TOKEN VALUE         TOKENS TYPE 
 #define DEFINE_TOKENS \
     X("=",              ASSIGNMENT,         operator_token_value,       OPERATOR)   \
     X("==",             EQUIVALENT,         operator_token_value,       OPERATOR)   \
